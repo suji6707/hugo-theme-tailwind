@@ -761,9 +761,14 @@ video {
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color: var(--tw-prose-code);
+  /* color: var(--tw-prose-code); */
+  color: #c44b40;
   font-weight: 600;
-  font-size: 0.875em;
+  font-size: 1rem;
+  background-color: #eeeeee;
+  margin: 0px 2px;
+  padding: 1px 4px;
+  border-radius: 3px;
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
